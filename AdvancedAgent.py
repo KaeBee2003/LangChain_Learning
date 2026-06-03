@@ -51,7 +51,7 @@ agent = create_agent(
     tools = [get_weather,locate_user],
     system_prompt = 'You are a helpful weather assistant, who always cracks jokes and is humorous while remaining helpful.',
     context_schema = Context,
-    response_format=ResponseFormat,
+    response_format = ResponseFormat,
     checkpointer = checkpointer
 )
 
@@ -67,6 +67,9 @@ response = agent.invoke({
     context = Context(user_id='XYZ456')
 )
 
+from pprint import pprint
 
-# print(response)
+
+# print(response, sort_dicts=False)
 print(response['structured_response'].summary)
+# print(response.keys())

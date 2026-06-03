@@ -704,8 +704,8 @@
 			"typeName": "shape"
 		},
 		{
-			"x": -231.551914066128,
-			"y": 2085.8515461493885,
+			"x": -188.36686083480816,
+			"y": 2539.294605078246,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -1815,7 +1815,7 @@
 			"editingShapeId": null,
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:cuCp-0xIYFcNnLm5O1lS1"
+				"shape:HnBLaFrdoM0AC4D4ffiOR"
 			],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
@@ -2073,9 +2073,9 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 11.554250210929467,
-			"y": 1907.8630916481425,
-			"z": 0.3951538916578271,
+			"x": 252.94450204154901,
+			"y": 33.64786347331358,
+			"z": 0.5557478387590384,
 			"meta": {},
 			"id": "camera:page:ngAfKsCGMn9A2tY4vCAak",
 			"typeName": "camera"
@@ -2619,7 +2619,7 @@
 		},
 		{
 			"x": -186.88279225727786,
-			"y": 345.41564664123916,
+			"y": 341.8168922052955,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -2627,8 +2627,8 @@
 			"id": "shape:HnBLaFrdoM0AC4D4ffiOR",
 			"type": "geo",
 			"props": {
-				"w": 1077.5040106966446,
-				"h": 888.3283470258858,
+				"w": 1061.3096157348996,
+				"h": 1647.6655330099256,
 				"geo": "rectangle",
 				"dash": "draw",
 				"growY": 0,
@@ -2689,6 +2689,42 @@
 			},
 			"parentId": "page:page",
 			"index": "aSEhXhfV",
+			"typeName": "shape"
+		},
+		{
+			"x": 562.8500067387617,
+			"y": 2133.6964071700804,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 0.75,
+			"meta": {},
+			"id": "shape:K_lK4i35ZomxuCuTuYm37",
+			"type": "text",
+			"props": {
+				"color": "red",
+				"size": "xl",
+				"w": 8,
+				"font": "mono",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph",
+							"content": [
+								{
+									"type": "text",
+									"text": "Text"
+								}
+							]
+						}
+					]
+				}
+			},
+			"parentId": "page:ngAfKsCGMn9A2tY4vCAak",
+			"index": "aWd6Nn2V",
 			"typeName": "shape"
 		},
 		{
@@ -2821,7 +2857,7 @@
 			"props": {
 				"color": "black",
 				"size": "s",
-				"w": 1005.109375,
+				"w": 1022.109375,
 				"font": "sans",
 				"textAlign": "start",
 				"autoSize": true,
@@ -2874,6 +2910,12 @@
 								"dir": "auto"
 							},
 							"content": [
+								{
+									"type": "hardBreak",
+									"attrs": {
+										"dir": "auto"
+									}
+								},
 								{
 									"type": "hardBreak",
 									"attrs": {
@@ -2936,6 +2978,12 @@
 								"dir": "auto"
 							},
 							"content": [
+								{
+									"type": "hardBreak",
+									"attrs": {
+										"dir": "auto"
+									}
+								},
 								{
 									"type": "hardBreak",
 									"attrs": {
@@ -3038,63 +3086,6 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "from "
-								},
-								{
-									"type": "text",
-									"marks": [
-										{
-											"type": "link",
-											"attrs": {
-												"href": "http://langchain.chat",
-												"target": "_blank",
-												"rel": "noopener noreferrer nofollow",
-												"class": null
-											}
-										}
-									],
-									"text": "langchain.chat"
-								},
-								{
-									"type": "text",
-									"text": "_models import init_chat_model"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "from langgraph.checkpoint.memory import InMemorySaver"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "hardBreak",
-									"attrs": {
-										"dir": "auto"
-									}
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
 									"text": "from langchain_google_genai import ChatGoogleGenerativeAI"
 								}
 							]
@@ -3107,31 +3098,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "model = ChatGoogleGenerativeAI("
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": "model=\"gemini-2.5-flash\", temperature = 0.3"
-								}
-							]
-						},
-						{
-							"type": "paragraph",
-							"attrs": {
-								"dir": "auto"
-							},
-							"content": [
-								{
-									"type": "text",
-									"text": ")"
+									"text": "model = ChatGoogleGenerativeAI(model=\"gemini-2.5-flash\", temperature = 0.3)"
 								}
 							]
 						},
@@ -3299,7 +3266,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "match runtime.context.user_id:"
+									"text": "\t\tmatch runtime.context.user_id:"
 								}
 							]
 						},
@@ -3311,7 +3278,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "case 'ABC123':"
+									"text": "\t\t\t\tcase 'ABC123':"
 								}
 							]
 						},
@@ -3323,7 +3290,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "return 'Vienna'"
+									"text": "\t\t\t\t\t\treturn 'Vienna'"
 								}
 							]
 						},
@@ -3335,7 +3302,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "case 'XYZ456':"
+									"text": "\t\t\t\tcase 'XYZ456':"
 								}
 							]
 						},
@@ -3347,7 +3314,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "return 'Birmingham'"
+									"text": "\t\t\t\t\t\treturn 'Birmingham'"
 								}
 							]
 						},
@@ -3359,7 +3326,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "case _:"
+									"text": "\t\t\t\tcase _:"
 								}
 							]
 						},
@@ -3371,7 +3338,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "return 'Unknown'"
+									"text": "\t\t\t\t\t\treturn 'Unknown'"
 								}
 							]
 						},
@@ -3386,6 +3353,24 @@
 									"attrs": {
 										"dir": "auto"
 									}
+								},
+								{
+									"type": "hardBreak",
+									"attrs": {
+										"dir": "auto"
+									}
+								}
+							]
+						},
+						{
+							"type": "paragraph",
+							"attrs": {
+								"dir": "auto"
+							},
+							"content": [
+								{
+									"type": "text",
+									"text": "from langgraph.checkpoint.memory import InMemorySaver"
 								}
 							]
 						},
@@ -3407,6 +3392,12 @@
 								"dir": "auto"
 							},
 							"content": [
+								{
+									"type": "hardBreak",
+									"attrs": {
+										"dir": "auto"
+									}
+								},
 								{
 									"type": "hardBreak",
 									"attrs": {
@@ -3447,7 +3438,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "model = model,"
+									"text": "\t\tmodel = model,"
 								}
 							]
 						},
@@ -3459,7 +3450,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "tools = [get_weather,locate_user],"
+									"text": "\t\ttools = [get_weather,locate_user],"
 								}
 							]
 						},
@@ -3471,7 +3462,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "system_prompt = 'You are a helpful weather assistant, who always cracks jokes and is humorous while remaining helpful.',"
+									"text": "\t\tsystem_prompt = 'You are a helpful weather assistant, who always cracks jokes and is humorous while remaining helpful.',"
 								}
 							]
 						},
@@ -3483,7 +3474,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "context_schema = Context,"
+									"text": "\t\tcontext_schema = Context,"
 								}
 							]
 						},
@@ -3495,7 +3486,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "response_format=ResponseFormat,"
+									"text": "\t\tresponse_format=ResponseFormat,"
 								}
 							]
 						},
@@ -3507,7 +3498,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "checkpointer = checkpointer"
+									"text": "\t\tcheckpointer = checkpointer"
 								}
 							]
 						},
@@ -3583,7 +3574,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "'messages': ["
+									"text": "\t\t'messages': ["
 								}
 							]
 						},
@@ -3595,7 +3586,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "{'role':'user', 'content': 'What is the weather like?'}"
+									"text": "\t\t\t\t{'role':'user', 'content': 'What is the weather like?'}"
 								}
 							]
 						},
@@ -3607,7 +3598,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "]},"
+									"text": "\t\t]},"
 								}
 							]
 						},
@@ -3619,7 +3610,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "config = config,"
+									"text": "\t\tconfig = config,"
 								}
 							]
 						},
@@ -3631,7 +3622,7 @@
 							"content": [
 								{
 									"type": "text",
-									"text": "context = Context(user_id='XYZ456')"
+									"text": "\t\tcontext = Context(user_id='XYZ456')"
 								}
 							]
 						},
